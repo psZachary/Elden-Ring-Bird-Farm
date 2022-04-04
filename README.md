@@ -23,3 +23,4 @@ six==1.16.0
 - Tested with 1600 DPI
  ### Todo
  - [x] Use F then E then E instead of using keys and mouse to travel back to grace. (Access sites of grace menu)
+ - [ ] Automatic arrow refilling
