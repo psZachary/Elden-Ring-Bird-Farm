@@ -14,3 +14,5 @@ six==1.16.0
 4) When loaded, go into elden ring and teleport to the "Palace Approach Ledge-Road" site of grace **DO NOT MOVE YOUR MOUSE**
 5) Press the 'O' key around 0.5s after the "Mohgwyn Palace" text appears
 6) Sit back, relax and enjoy the ruins
+### Tutorial
+![Alt Text](tutorial.gif)
