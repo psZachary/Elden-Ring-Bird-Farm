@@ -1,11 +1,10 @@
 ### Requirements
 ```
-Python Version 3.10
-
-colorama==0.4.4
-pynput==1.7.6
-pywin32==303
-six==1.16.0
+Python 3.0+ w/ Pip
+coloram>=0.4.4+
+pynput>=1.7.6
+pywin32>=303
+six>=1.16.0
 ```
 ### How To Use
 1) Download as .ZIP from GitHub 
@@ -21,6 +20,7 @@ six==1.16.0
 - Tested using Camera Speed of 7 Mouse Sensitivity of 5
 - Tested with Fullscreen 1920x1080p
 - Tested with 1600 DPI
+- Tested on Windows 10 21h1
  ### Todo
  - [x] Use F then E then E instead of using keys and mouse to travel back to grace. (Access sites of grace menu)
  - [ ] Automatic arrow refilling
