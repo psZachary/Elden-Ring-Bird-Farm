@@ -1,4 +1,0 @@
-colorama==0.4.4
-pynput==1.7.6
-pywin32==303
-six==1.16.0
