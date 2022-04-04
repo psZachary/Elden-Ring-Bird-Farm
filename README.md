@@ -21,3 +21,5 @@ six==1.16.0
 - Tested using Camera Speed of 7 Mouse Sensitivity of 5
 - Tested with Fullscreen 1920x1080p
 - Tested with 1600 DPI
+ ### Todo
+ - [ ] Use F then E then E instead of using keys and mouse to travel back to grace.
