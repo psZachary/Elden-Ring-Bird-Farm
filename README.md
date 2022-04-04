@@ -16,3 +16,8 @@ six==1.16.0
 6) Sit back, relax and enjoy the ruins
 ### Tutorial
 ![Alt Text](tutorial.gif)
+### Notes
+Tested using the default Longbow
+Tested using Camera Speed of 7 Mouse Sensitivity of 5
+Tested Fullscreen 1920x1080p
+Tested 1600 DPI
