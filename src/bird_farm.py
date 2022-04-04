@@ -42,24 +42,14 @@ while True:
         game_player.MoveMouse(-480, 450)                    #moving mouse toward bird
         time.sleep(0.2)                                     #waiting for bird to appear / error handling
         game_player.AimAndShoot(0)                          #aim and shoot bird
-        time.sleep(5.5)                                     #waiting for combat timer to open map
-        
-        #at this point any mouse movement will reset the mouse position on the menu (center it) we need to center it for further use
-        game_player.MoveMouse(20, 20)
-
-        time.sleep(0.5)                                     #error handling 
+        time.sleep(6)                                       #waiting for combat timer to open map
         game_player.OpenMap()                               #open map
         time.sleep(0.2)                                     #error handling
-        game_player.MoveRight(0.05)                         #moving to grace on map
-        time.sleep(0.3)                                     #error handling
-        game_player.Aim(0.01)                               #open grace menu
-        game_player.MoveMouse(30, -30)                      #moving mouse to travel button
-        game_player.Shoot()                                 #click travel button
-        time.sleep(0.5)                                     #error handling 
-        game_player.MoveMouse(-100, 50)                     #moving mouse to travel confirmation button
+        game_player.OpenSitesOfGrace()                      #open sites of grace
+        game_player.Select()                                #select grace
         time.sleep(0.1)                                     #error handling
-        game_player.Shoot()                                 #click travel confirmation button
+        game_player.Select()                                #teleport grace
         time.sleep(5.5)                                     #waiting for loading and respawn
-        
+
         print(Fore.CYAN + "[+] Ready to farm")
     

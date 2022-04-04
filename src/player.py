@@ -17,6 +17,10 @@ class Player:
         direct_keyboard.ReleaseKey(key)
     def OpenMap(self):
         self.__PressExtended(KEYS.DIK_G, 0.05)
+    def OpenSitesOfGrace(self):
+        self.__PressExtended(KEYS.DIK_F, 0.05)
+    def Select(self):
+        self.__PressExtended(KEYS.DIK_E, 0.05)
     def MoveForward(self, duration=0):
         self.__PressExtended(KEYS.DIK_W, duration)
     def MoveLeft(self, duration=0):
