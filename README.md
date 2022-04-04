@@ -1,3 +1,7 @@
+# Elden Ring Bird Autofarm
+![img](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![img](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
+![img](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ### Requirements
 ```
 Python 3.0+ w/ Pip
@@ -14,7 +18,7 @@ six>=1.16.0
 5) Press the 'O' key around 0.5s after the "Mohgwyn Palace" text appears
 6) Sit back, relax and enjoy the ruins
 ### Tutorial
-![Alt Text](tutorial.gif)
+![img](tutorial.gif)
 ### Notes
 - Tested using the default Longbow
 - Tested using Camera Speed of 7 Mouse Sensitivity of 5
