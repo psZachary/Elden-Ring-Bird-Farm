@@ -74,3 +74,7 @@ class Player:
         if not self.__ScanForBreakInput():
             return False
         win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0)
+    def UpArrow(self):
+        if not self.__ScanForBreakInput():
+            return False
+        self.__PressExtended(KEYS.DIK_UP, 0.05)
