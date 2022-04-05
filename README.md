@@ -26,4 +26,4 @@ six>=1.16.0
 - Tested on Windows 10 21h1
  ### Todo
  - [x] Use F then E then E instead of using keys and mouse to travel back to grace. (Access sites of grace menu)
- - [ ] Automatic arrow refilling
+ - [x] Automatic arrow refilling
