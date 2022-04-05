@@ -14,6 +14,26 @@ print(Fore.CYAN + "[+] Press '" + cvar.exit_program_key + "' At Any Time To Exit
 print(Fore.CYAN + "[+] Press '" + cvar.toggle_farm_key  + "' To Start The Farm\n")
 
 def Farm():
+
+    if cvar.rest_at_grace_counter == int(cvar.rest_at_grace_interval):
+        if False == game_player.MoveForward(0.4): return        #move toward grace
+        if False == game_player.Select(): return                #rest at grace
+        time.sleep(3)                                           #wait for resting animation / blackscreen
+        if False == game_player.UpArrow(): return               #move to exit on grace menu
+        if False == game_player.Select(): return                #exit grace menu
+        time.sleep(1)
+        if False == game_player.OpenMap(): return               #open map
+        time.sleep(0.2)                                         #error handling
+        if False == game_player.OpenSitesOfGrace(): return      #open sites of grace
+        if False == game_player.Select(): return                #select grace
+        time.sleep(0.1)                                         #error handling
+        if False == game_player.Select(): return                #teleport grace
+        time.sleep(float(cvar.load_time))                       #waiting for loading and respawn
+        print(Fore.CYAN + "[+] Finished Loading")               #back at start of grace, finished loading
+
+        cvar.rest_at_grace_counter = 0                          #reset rest at grace counter
+        return
+
     if False == game_player.MoveMouse(-1700): return            #moving mouse toward cliff
     if False == game_player.MoveForward(1.3): return            #walking to cliff 
     if False == game_player.MoveMouse(-480, 450): return        #moving mouse toward bird
@@ -29,6 +49,8 @@ def Farm():
     if False == game_player.Select(): return                    #teleport grace
     time.sleep(float(cvar.load_time))                           #waiting for loading and respawn
     print(Fore.CYAN + "[+] Finished Loading")                   #back at start of grace, finished loading
+
+    cvar.rest_at_grace_counter += 1                             #increment rest at grace interval counter
 
 while True:
     if cvar.farm_running:
