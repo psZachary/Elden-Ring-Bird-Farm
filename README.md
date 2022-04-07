@@ -24,6 +24,7 @@ six>=1.16.0
 - Tested with Fullscreen 1920x1080p
 - Mouse DPI shouldn't matter
 - Tested on Windows 10 21h1
+- The script rest's at the grace nearby to refill arrows every *rest_at_grace_interval* (config.ini) amount of birds killed. 
  ### Todo
  - [x] Use F then E then E instead of using keys and mouse to travel back to grace. (Access sites of grace menu)
  - [x] Automatic arrow refilling
