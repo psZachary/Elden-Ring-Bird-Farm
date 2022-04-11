@@ -13,9 +13,10 @@ six>=1.16.0
 ### How To Use
 1) Download as .ZIP from GitHub 
 2) Open the program using RUN.bat
-3) When loaded, go into elden ring and teleport to the "Palace Approach Ledge-Road" site of grace **DO NOT MOVE YOUR MOUSE**
-4) Press the farm toggle key around 0.5s after the "Mohgwyn Palace" text appears
-5) Sit back, relax and enjoy the ruins
+4) When loaded, go into elden ring and teleport to the "Palace Approach Ledge-Road" site of grace **DO NOT MOVE YOUR MOUSE**
+5) Ensure that you only have your bow equipped, the arrows are in the correct slot and that it is being held with both hands. 
+6) Press the farm toggle key around 0.5s after the "Mohgwyn Palace" text appears (after traveling to site of grace) 
+7) Sit back, relax and enjoy the ruins
 ### Tutorial
 ![img](tutorial.gif)
 ### Notes
